@@ -3,7 +3,7 @@ A windows service that runs in background and transfer data from Background to U
 service from : https://www.c-sharpcorner.com/UploadFile/naresh.avari/develop-and-install-a-windows-service-in-C-Sharp/
 
 # Precondition
-The Service must be installed first to see the communicaiton. Also if port 8085 is used then need to change it from (CManagerClientServer.getInstance().openServer(8085))
+The Service must be installed first to see the communication. Also if port 8085 is used then need to change it from (CManagerClientServer.getInstance().openServer(8085))
 
 # LibClientServer
 This library is used to setup cient server layer between UI and service element.
