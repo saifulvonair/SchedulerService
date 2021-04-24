@@ -21,3 +21,13 @@ mModelRemoteObject.setHost(delegate (object obj) // Set the Server as Host
 # ClientObject
 The UI which connect the server, after successfull connection the Stop button will be Enabled. Then the message will be displyed in the textbox.
 User can then send command to service from Button Stop to stop the timer thhat is running in Service.
+
+# Install and Uninstall
+
+Go to the install Exe folder:
+
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+
+InstallUtil.exe "E:\SELECTED_FOR_GITHUB\SchedulerService\SchedulerService\SchedulerService.exe"
+
+InstallUtil.exe /u "E:\SELECTED_FOR_GITHUB\SchedulerService\SchedulerService\SchedulerService.exe"
